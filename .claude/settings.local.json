@@ -3,7 +3,21 @@
     "allow": [
       "Bash(python run_backtest.py)",
       "Bash(python3 run_backtest.py)",
-      "Bash(python3 -c \"import baostock\")"
+      "Bash(python3 -c \"import baostock\")",
+      "Bash(gh repo:*)",
+      "Bash(git push:*)",
+      "Bash(ssh:*)",
+      "Bash(mkdir:*)",
+      "Bash(brew install:*)",
+      "Bash(gh auth:*)",
+      "Bash(git rev-list:*)",
+      "Bash(git cat-file:*)",
+      "Bash(git filter-branch:*)",
+      "Bash(git add:*)",
+      "Bash(git rm:*)",
+      "Bash(FILTER_BRANCH_SQUELCH_WARNING=1 git filter-branch --force --index-filter 'git rm -rf --cached --ignore-unmatch cache/ output/ .DS_Store' --prune-empty HEAD)",
+      "Bash(git commit:*)",
+      "Bash(git stash:*)"
     ]
   }
 }
