@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python run_backtest.py)",
+      "Bash(python3 run_backtest.py)",
+      "Bash(python3 -c \"import baostock\")"
+    ]
+  }
+}
